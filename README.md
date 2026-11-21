@@ -2,7 +2,7 @@
 
 # Claude Meter
 
-A macOS menu bar app that keeps **this month's Claude spend**, your **usage limits (5-hour and weekly)**, and
+A macOS menu bar app that keeps your **Claude spend**, your **usage limits (5-hour and weekly)**, and
 **the Claude Code sessions running now** in view at all times.
 
 ---
@@ -45,7 +45,7 @@ When the Claude desktop app is not running, the menu bar shows only the icon, wi
 
 ## Features
 
-- **This month's spend** — Amount and percentage of your spend limit. Also shown in yen
+- **Spend** — Amount and percentage of your spend limit. Also shown in yen
 - **Usage limits** — 5-hour and weekly gauges with reset times, and a breakdown of weekly usage
 - **Running sessions** — Claude Code sessions that responded in the last 30 minutes (CLI, the Code tab of the Claude app, the VS Code extension, and the SDK).
   Shows the model, context usage, and estimated cost for the last 30 minutes and in total. You can open a breakdown of subagents
