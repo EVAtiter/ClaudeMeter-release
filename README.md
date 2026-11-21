@@ -32,8 +32,9 @@ brew trust --cask evatiter/tap/claude-meter
 
 ## How to use
 
-- **Menu bar** — On plans with a spend limit (such as Enterprise), shows how much of this month's limit you have used (for example, `✳ 55%`).
-  On Pro / Max, shows the 5-hour limit (for example, `✳ 5h 8%`). When the weekly limit is higher and at 75% or more, shows the weekly limit instead (`✳ 週 88%`, "週" means weekly)
+- **Menu bar** — On plans with a spend limit (such as Enterprise), shows how much of your spend limit you have used (for example, `✳ 55%`).
+  On Pro / Max, shows the 5-hour limit (for example, `✳ 5h 8%`). When the weekly limit is higher and at 75% or more, shows the weekly limit instead (`✳ 週 88%`, "週" means weekly).
+  If you have set up extra usage credit, it still shows the limits, and shows the credit only while a limit is used up and the credit is being spent
 - **Colors** — The badge turns yellow at 75% and red at 90%
 - **Click** — Opens the detail card. Click outside the card to close it
 - **Right-click** (or the gear at the top right of the card) — Refresh now (今すぐ更新) / Retry Keychain access (Keychain の許可をやり直す) / Open at login (Mac ログイン時に自動起動) / About (バージョン情報) / Quit (終了)
@@ -44,7 +45,7 @@ When the Claude desktop app is not running, the menu bar shows only the icon, wi
 
 ## Features
 
-- **This month's spend** — Amount and percentage of your spend limit, and when it resets (00:00 UTC on the 1st of each month). Also shown in yen
+- **This month's spend** — Amount and percentage of your spend limit. Also shown in yen
 - **Usage limits** — 5-hour and weekly gauges with reset times, and a breakdown of weekly usage
 - **Running sessions** — Claude Code sessions that responded in the last 30 minutes (CLI, the Code tab of the Claude app, the VS Code extension, and the SDK).
   Shows the model, context usage, and estimated cost for the last 30 minutes and in total. You can open a breakdown of subagents
